@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <style>
+        * {
+             font-family: 'Palette Mosaic', cursive;
+        }
+        div {
+            padding: 10px;
+    
+        }
+        .signin_container {
+
+            width:300px;
+            height: 380px;
+            margin: 15px;
+            border: 3px blueviolet solid;
+            border-radius: 30px;
+        }
+        .signin_title {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            font-size: 18pt;
+        }
+        input {
+            width: 250px;
+            height: 30px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        /*button { background: none; border: 0; }*/
+
+        #confirmBtn {
+            text-align: center;
+            width: 250px;
+            height: 30px;
+            background-color: blueviolet;
+            display: block;
+            border: 0;
+            border-radius: 10px;
+            margin-top: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class = "signin_container">
+        <form>
+            <div class="signin_title">로그인</div>
+            <div class="signin_input_container">
+                <div class="singin_input_title">아이디</div>
+                <input type="text" class="signin" name="username" placeholder="아이디">
+            </div>
+            <div class="signin_input_container">
+                <div class="signin_input_title">비밀번호</div>
+                <input type="password" class="signin" name="password" placeholder="비밀번호">
+            </div>
+            <button id="confirmBtn" type="submit">완료</button>
+        </form>
+    </div>
+</body>
+</html>
